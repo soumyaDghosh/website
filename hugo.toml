@@ -1,0 +1,58 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Soumya's Web"
+
+theme = 'PaperMod'
+showrss = false
+sectionPagesMenu = "main"
+
+[menu]
+  [[menu.main]]
+  name = "About"
+  weight = 10
+  url = "/about"
+
+[params]
+  ShowBreadCrumbs = true
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  ShowShareButtons = true
+  env = 'production'
+  comments = true
+  [params.scrollToTop]
+  enabled = true
+
+  [params.editPost]
+  URL = "https://github.com/soumyaDghosh/soumyaDghosh.github.io/tree/main/content"
+  Text = "Suggest Changes"
+  appendFilePath = true
+
+  [params.homeInfoParams]
+  Title = "Namaskar World."
+  Content = "Happy Exploring!!"
+
+  [[params.socialIcons]]
+  name = "email"
+  url = "mailto:soumyadeepghosh2004+website@zohomail.in"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/soumyaDghosh"
+
+  [[params.socialIcons]]
+  name = "gitlab"
+  url = "https://gitlab.com/soumyaDghosh"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "www.linkedin.com/in/soumyadeep-ghosh-5b2a35292"
+
+  [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/s0umyad"
+
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
