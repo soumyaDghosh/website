@@ -5,6 +5,7 @@ title = "Soumya's Web"
 theme = 'PaperMod'
 showrss = false
 sectionPagesMenu = "main"
+enableEmoji = true
 
 [menu]
   [[menu.main]]

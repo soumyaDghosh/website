@@ -5,6 +5,10 @@ name = 'About'
 showTitle = false
 ShowToc = false
 searchHidden = true
+ShowReadingTime = false
+comments = false
+[editPost]
+disabled = true
 +++
 
 ### Who am I?
