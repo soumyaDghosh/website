@@ -48,7 +48,7 @@ enableEmoji = true
 
   [[params.socialIcons]]
   name = "linkedin"
-  url = "www.linkedin.com/in/soumyadeep-ghosh-5b2a35292"
+  url = "https://www.linkedin.com/in/soumyadeep-ghosh-5b2a35292"
 
   [[params.socialIcons]]
   name = "twitter"
