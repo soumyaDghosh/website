@@ -1,6 +1,7 @@
 +++
 title = 'Snapcraft: Adopting appstream metadata'
 date = 2024-05-31T15:03:02+05:30
+tags = ['snapcraft', 'python', 'appstream', 'linux', 'snaps']
 +++
 
 ### Introduction
@@ -17,12 +18,15 @@ Whatever takes time takes for good. Yeah, so, about on March I created a PR on s
 ### What does this change means?
 
 #### For publishers/snapcrafters
+
 Publishers and snapcrafters who also maintains an appstrean metadata for their app, you don't need to maintain the metadata in your snap package separately. Just add the metadata file in your snap and you're good to go. (Also please keep in mind to enable the update metadata from snapcraft option in case you disabled it).
 
 #### For users
+
 You'll not see a change in front of yourself out of the box. But eventually, you'll see all those who have added their appstream metadata to parse from, those pages will get populated with the links and the license automatically. Thus posts like [this](https://forum.snapcraft.io/t/reporting-bugs-in-snaps) or [this](https://discourse.ubuntu.com/t/snap-support) might eventually reduce in the Snapcraft forum or Ubuntu discourse.
 
 ### How does that work?
+
 Well as snapcraft did with summary, description, title etc, here again we're using `lxml.etree` library to scrap the `xml` file. The finding these fields.
 
 1. `project_license` for License
@@ -32,7 +36,7 @@ Well as snapcraft did with summary, description, title etc, here again we're usi
 5. `homepage` for Website Links
 6. `vcs-browser` for Source Code
 
-But, there is a twist, the `links` mentioned above were previously `Optional[str]`, [but this new PR sets this as `Optional[List[str]]`](https://github.com/canonical/snapcraft/blob/main/snapcraft/meta/extracted_metadata.py#L54-L67). 
+But, there is a twist, the `links` mentioned above were previously `Optional[str]`, [but this new PR sets this as `Optional[List[str]]`](https://github.com/canonical/snapcraft/blob/main/snapcraft/meta/extracted_metadata.py#L54-L67).
 
 ```python
     contact: Optional[List[str]] = None
@@ -64,8 +68,8 @@ What does that mean? Well, it means that you can have multiple links for the sam
         return field_value
 ```
 
+### So, what's next?
 
-### So, what's next? 
 #### My plans:
 
 1. Try to look into a way, so that screenshot can also be parsed from the appstream metadata.
