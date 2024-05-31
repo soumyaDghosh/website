@@ -54,6 +54,11 @@ enableEmoji = true
   name = "twitter"
   url = "https://twitter.com/s0umyad"
 
+  [[params.socialIcons]]
+  name = "rss"
+  title = "RSS"
+  url = "https://soumyadghosh.github.io/website/blog/index.xml"
+
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
