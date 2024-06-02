@@ -50,7 +50,7 @@ done
 
 And now comes the most important part. Open the System Settings app. Then search, `autostart`, you'll see an option like this:
 
-![system-settings-app-autostart](/kde-system-settings-autostart.png)
+![system-settings-app-autostart](kde-system-settings-autostart.png)
 
 In this page, click on Add => Add Login Script
 
