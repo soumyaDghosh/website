@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://soumyadghosh.github.io/website/'
 languageCode = 'en-us'
 title = "Soumya's Web"
 
@@ -53,6 +53,14 @@ enableEmoji = true
   [[params.socialIcons]]
   name = "twitter"
   url = "https://twitter.com/s0umyad"
+
+  [[params.socialIcons]]
+  name = "kofi"
+  url = "https://ko-fi.com/soumyadghosh"
+
+  [[params.socialIcons]]
+  name = "paypal"
+  url = "https://paypal.me/soumyaDghosh?country.x=IN&locale.x=en_GB"  
 
   [[params.socialIcons]]
   name = "rss"
