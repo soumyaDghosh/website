@@ -13,7 +13,7 @@ disabled = true
 
 ### Who am I?
 
-I am Soumyadeep Ghosh from Bengal, India; a FOSS and Open Source enthusiast and contributor. My Open Source contributions started with [Snaps](snapcraft.io/). I am currently a 2nd Year undergrad student of CSE.
+I am Soumyadeep Ghosh from Bengal, India; a FOSS enthusiast and contributor. My Open Source contributions started with [Snaps](snapcraft.io/). I am currently a 2nd Year undergrad student of CSE.
 
 ### Members at
 
