@@ -55,6 +55,14 @@ enableEmoji = true
   url = "https://twitter.com/s0umyad"
 
   [[params.socialIcons]]
+  name = "matrix"
+  url = "https://matrix.to/#/@soumyatheman:matrix.org"
+
+  [[params.socialIcons]]
+  name = "telegram"
+  url = "https://telegram.me/soumyatheman"
+
+  [[params.socialIcons]]
   name = "kofi"
   url = "https://ko-fi.com/soumyadghosh"
 
