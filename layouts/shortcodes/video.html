@@ -1,0 +1,26 @@
+<style>
+    .responsive-video {
+      width: 100%;
+      height: auto;
+      max-width: 600px;
+    }
+  
+    @media (min-width: 600px) {
+      .responsive-video {
+        width: 80%;
+      }
+    }
+  
+    @media (min-width: 800px) {
+      .responsive-video {
+        width: 100%;
+      }
+    }
+  </style>
+<center>
+  <video class="responsive-video" controls>
+    <source src="{{ .Get 0 }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</center>
+  
