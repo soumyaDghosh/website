@@ -1,6 +1,7 @@
 +++
 title = 'GSOC Week 1 Week 2'
 date = 2024-06-15T00:07:37+05:30
+thumbnail = 'gsoc.png'
 +++
 
 This is the first blog post of my GSOC journey. I will be sharing my works and experiences here. Stay tuned for more updates. In this blog, I'll be sharing my experiences of the first two weeks of GSOC, what are the works I did, what are challenges I faced and how did I overcome them ( Did I really overcome them :P ).
