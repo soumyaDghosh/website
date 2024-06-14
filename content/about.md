@@ -7,6 +7,7 @@ ShowToc = false
 searchHidden = true
 ShowReadingTime = false
 comments = false
+no_rss = true
 [editPost]
 disabled = true
 +++
