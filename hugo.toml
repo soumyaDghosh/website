@@ -1,7 +1,7 @@
 baseURL = 'https://soumyadghosh.github.io/website/'
 languageCode = 'en-us'
 title = "Soumya's Web"
-
+copyright = "Soumyadeep Ghosh. All rights reserved."
 theme = 'PaperMod'
 showrss = false
 sectionPagesMenu = "main"
@@ -74,7 +74,7 @@ enableEmoji = true
   [[params.socialIcons]]
   name = "rss"
   title = "RSS"
-  url = "https://soumyadghosh.github.io/website/blog/index.xml"
+  url = "https://soumyadghosh.github.io/website/index.xml"
 
 
 [outputs]
