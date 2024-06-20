@@ -1,7 +1,9 @@
 +++
 title = 'GSOC Week 1 Week 2'
 date = 2024-06-15T00:07:37+05:30
-thumbnail = 'gsoc.png'
+images = ['gsoc.png']
+keywords = ['KDE', 'Discover', 'GSOC', '2024']
+tags = ['KDE', 'GSOC', '2024']
 +++
 
 This is the first blog post of my GSOC journey. I will be sharing my works and experiences here. Stay tuned for more updates. In this blog, I'll be sharing my experiences of the first two weeks of GSOC, what are the works I did, what are challenges I faced and how did I overcome them ( Did I really overcome them :P ).
@@ -33,8 +35,9 @@ On another side, what'll be the use of these if the snaps aren't great to use in
 The Qt SDK for Snaps didn't have proper Multimedia codecs and PulseAudio support. I fixed that. While doing these we also found out a bug in the build of the SDK. It's fixed by my mentor Scarlett Mam. Also, on updating some snap packages, which were not at all up to date including KClock and KWeather. Also worked on the snaps of AudioTube, Haruna and some others. The Work is still in Progress. So, stay tuned.
 
 Thanks a lot to everyone who helped me in this journey. Also a big thanks to
-1. Scarlett Mam
-2. Aleix Pol
-3. Nate Graham
+1. [Scarlett Mam](https://invent.kde.org/scarlettmoore)
+2. [Aleix Pol](https://invent.kde.org/apol)
+3. [Nate Graham](https://invent.kde.org/ngraham)
+4. [Fyodor Sobolev](https://github.com/fsobolev)
 
 Stay Tuned for the future updates. Also, if you want to have a technical details and deep dive into my PRs and changes, there will be a blog coming soon explaining all that. So, please keep an eye on my blogs! Good Bye :wave:
