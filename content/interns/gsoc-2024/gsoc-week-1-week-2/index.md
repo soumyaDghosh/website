@@ -1,5 +1,5 @@
 +++
-title = 'GSOC Week 1 Week 2'
+title = 'GSOC: Week 1 Week 2'
 date = 2024-06-15T00:07:37+05:30
 images = ['gsoc.png']
 keywords = ['KDE', 'Discover', 'GSOC', '2024']
