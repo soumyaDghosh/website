@@ -2,6 +2,7 @@
 date = 2024-09-13T20:30:00+05:30
 title = "UbuCon Asia 2024: My first ever conference!"
 tags = ['UbuCon', 'Ubuntu', 'Conference', '2024', 'Canonical' , 'Linux', 'Snaps']
+images = ['everyone.jpg']
 +++
 
 "Heather, Heather, Heather; what did you now!" and both me & [Fenris](https://www.linkedin.com/in/myfenris/) started laughing with Till, as we're discussing about some issue in the thunderbird snap during the conference dinner.
