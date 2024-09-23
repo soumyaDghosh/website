@@ -52,6 +52,10 @@ enableEmoji = true
   url = "https://www.linkedin.com/in/soumyadghosh"
 
   [[params.socialIcons]]
+  name = "mastodon"
+  url = "https://mastodon.social/@soumyadghosh"
+
+  [[params.socialIcons]]
   name = "twitter"
   url = "https://twitter.com/s0umyad"
 
