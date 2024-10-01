@@ -1,35 +1,61 @@
 <div class="support-me">
-    <p>If you like my work, please, consider supporting me:</p>
-    <!-- Ko-fi button -->
-    <a href="https://ko-fi.com/P5P1X1VAA" target="_blank">
-      <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi">
-    </a>
-    
-    <!-- PayPal button -->
-    <a href="https://paypal.me/soumyaDghosh?country.x=IN&locale.x=en_GB" target="_blank">
-      <img src="https://raw.githubusercontent.com/andreostrovsky/donate-with-paypal/master/blue.svg" height="30" alt="Support me on PayPal">
-    </a>
-    
-    <!-- UPI button -->
-    <a href="https://donateviaupi.com/7719243876@jio?pn=Soumyadeep%20Ghosh&amount_list=100,200,500,1000" target="_blank">
-      <img style="width:160px !important; height: 40px !important" src="https://payviaupi.com/default-orange.png" alt="Donate via UPI">
-    </a>
+  <p>If you like my work, please consider supporting me:</p>
+  <div class="button-container">
+      <!-- Ko-fi button -->
+      <a href="https://ko-fi.com/P5P1X1VAA" target="_blank">
+          <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi">
+      </a>
+
+      <!-- PayPal button -->
+      <a href="https://paypal.me/soumyaDghosh?country.x=IN&locale.x=en_GB" target="_blank">
+          <img src="https://raw.githubusercontent.com/andreostrovsky/donate-with-paypal/master/blue.svg" height="30" alt="Support me on PayPal">
+      </a>
+
+      <!-- UPI button -->
+      <a href="upi://pay?pa=7719243876@jio" target="_blank" class="donate-button">
+          Donate via UPI
+      </a>
   </div>
+</div>
+
   
-  <style>
+<style>
   .support-me {
     margin-top: 2em;
     padding: 1em;
     text-align: center;
   }
   
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .support-me a {
     display: inline-block;
     margin: 0.5em;
   }
-  
+
   .support-me img {
     vertical-align: middle;
   }
-  </style>
-  
+
+  .donate-button {
+    background-color: #E95420; /* Green */
+    color: white;
+    padding: 3px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none; /* Remove underline from the link */
+    display: inline-flex; /* Keep it inline and allow flexbox properties */
+    align-items: center; /* Center text vertically */
+    transition: background-color 0.3s;
+  }
+
+  .donate-button:hover {
+    background-color: #E95420; /* Darker green */
+  }
+
+</style>
