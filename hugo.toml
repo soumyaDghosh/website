@@ -60,6 +60,10 @@ enableEmoji = true
   url = "https://twitter.com/s0umyad"
 
   [[params.socialIcons]]
+  name = "Instagram"
+  url = "https://www.instagram.com/s0umyad"
+
+  [[params.socialIcons]]
   name = "matrix"
   url = "https://matrix.to/#/@soumyatheman:matrix.org"
 
