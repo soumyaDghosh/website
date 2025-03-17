@@ -20,7 +20,7 @@ enableEmoji = true
   ShowCodeCopyButtons = true
   ShowToc = true
   ShowShareButtons = true
-  env = 'production'
+  env = "production"
   comments = true
   mainSections = ["blog", "interns"]
   [params.scrollToTop]
