@@ -56,6 +56,10 @@ enableEmoji = true
   url = "https://mastodon.social/@soumyadghosh"
 
   [[params.socialIcons]]
+  name = "mastodon"
+  url = "https://ubuntu.social/@soumyadghosh"
+
+  [[params.socialIcons]]
   name = "twitter"
   url = "https://twitter.com/s0umyad"
 
