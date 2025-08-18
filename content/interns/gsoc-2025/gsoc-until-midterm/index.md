@@ -1,7 +1,7 @@
 +++
 title = 'GSOC: Until Midterm, August 2025'
 date = 2025-08-18T11:00:00+05:30
-images = ['gsoc.png']
+images = ['openprinting.png']
 keywords = ['OpenPrinting', 'Python', 'PyCups', 'GSOC', '2025']
 tags = ['OpenPrinting', 'GSOC', '2025']
 +++
